@@ -45,7 +45,7 @@ function setup() {
 
 function modelReady() {
   // classify sound
-  textdiv.innerHTML = "Model Is Ready..Speak Numbers like 1,2,3...";
+  textdiv.innerHTML = "<h2>Model Is Ready..Speak Numbers like 1,2,3...</h2>";
   setInterval(() => {
     classifier.classify(gotResult);
   }, 1000);
